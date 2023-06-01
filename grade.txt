@@ -1,11 +1,4 @@
-Thu Jun  1 07:05:05 UTC 2023
-predictor.v:5: error: port request already has a port declaration.
-predictor.v:1: error: Port ``request'' has already been declared a port.
-predictor.v:6: error: port result already has a port declaration.
-predictor.v:1: error: Port ``result'' has already been declared a port.
-predictor.v:7: error: port clk already has a port declaration.
-predictor.v:1: error: Port ``clk'' has already been declared a port.
-predictor.v:8: error: port taken already has a port declaration.
-predictor.v:1: error: Port ``taken'' has already been declared a port.
-predictor.v:9: prediction definition conflicts with definition at predictor.v:1.
-An error occurred when opening .vcd file '.tmp.vcd'
+Thu Jun  1 07:10:51 UTC 2023
+Test 'predictor' passed for src file 'predictor.v'
+src file 'predictor.v': 1/1 tests passed
+
