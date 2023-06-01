@@ -1,13 +1,5 @@
 module predictor(input wire request, result, clk, taken, output reg prediction);
 
-
-  // Declare the input and output signals
-  input request; // Input signal representing branch request
-  input result; // Input signal representing branch result
-  input clk; // Clock signal
-  input taken; // Input signal representing branch taken
-  output reg prediction; // Output signal representing the predicted outcome
-
   // Define the saturating counter variable
   reg [1:0] saturating_counter = 0;
 
