@@ -1,7 +1,7 @@
 module predictor(input wire request, result, clk, taken, output reg prediction);
 
   // Define the saturating counter variable
-  reg [1:0] saturating_counter = 0;
+  reg [1:0] saturating_counter = 3;
 
   // Implement the saturating counter logic
   always @(posedge clk) begin
