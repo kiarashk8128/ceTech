@@ -1,4 +1,11 @@
-Thu Jun  1 06:31:05 UTC 2023
-Test 'predictor' failed for src file 'predictor.v'
-src file 'predictor.v': 0/1 tests passed
-
+Thu Jun  1 06:58:24 UTC 2023
+predictor.v:8: error: port request already has a port declaration.
+predictor.v:1: error: Port ``request'' has already been declared a port.
+predictor.v:9: error: port result already has a port declaration.
+predictor.v:1: error: Port ``result'' has already been declared a port.
+predictor.v:10: error: port clk already has a port declaration.
+predictor.v:1: error: Port ``clk'' has already been declared a port.
+predictor.v:11: error: port taken already has a port declaration.
+predictor.v:1: error: Port ``taken'' has already been declared a port.
+predictor.v:12: prediction definition conflicts with definition at predictor.v:1.
+An error occurred when opening .vcd file '.tmp.vcd'
